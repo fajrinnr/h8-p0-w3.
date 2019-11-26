@@ -4,9 +4,9 @@ function palindrome(kata) {
         balik += kata[i]
     }
     if (balik === kata){
-        return 'true'
+        return true
     } else {
-        return 'false'
+        return false
     }
   }
   
