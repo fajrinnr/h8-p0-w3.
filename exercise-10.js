@@ -2,7 +2,7 @@ function perkalianUnik(arr) {
     var total = 1
     var totalArr =[]
     for (let i = 0; i <= arr.length - 1; i++) {
-        total = total * arr[i]; 
+        total = total * arr[i]
     }  
     for (let i = 0; i <= arr.length-1; i++) {
         total1 = total / arr[i]
