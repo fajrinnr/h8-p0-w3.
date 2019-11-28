@@ -11,7 +11,7 @@ function groupAnimals(animals) {
             hasil.push([animals[i]])
             itung++
         }
-    }
+    } 
     return hasil
 }
 
