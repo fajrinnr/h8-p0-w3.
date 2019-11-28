@@ -14,7 +14,7 @@ function mengelompokkanAngka(arr) {
         } else if (arr[i] % 2 !== 0 && arr[i] % 3 !== 0) {
             ganjil.push(arr[i])
         }
-    }
+    } 
         total.push(genap)
         total.push(ganjil)
         total.push(kelipatan3)
